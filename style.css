@@ -1,5 +1,7 @@
 * {
     font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Header Section */
@@ -189,6 +191,26 @@
     border-radius: 0px;
     height: 40px;
     width: 155px;
+}
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    color: #FFF;
+}
+.footer-container h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+.footer-container p {
+    font-weight: 700;
+    font-size: .90rem;
+}
+.social {
+    padding: 20px;
+}
+.social img {
+    padding: 8px;
 }
 @media only screen and (max-width:576px) {
     .header-container {
